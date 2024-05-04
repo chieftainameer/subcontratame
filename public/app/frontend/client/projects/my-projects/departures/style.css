@@ -1,0 +1,27 @@
+.modal-lg{
+    max-width: 800px;
+}
+#imgProfile, #imgSignature {
+    width: 200px;
+    height: 200px;
+    /*border-radius: 50%;*/
+}
+.profile {
+    width: 50%;
+    /*margin-left: 15%;*/
+    text-align: center;
+    /*border-radius:50%; */
+    min-width: 150px; 
+    min-height: 150px;
+}
+.label-info{
+    background-color: #3396d1;
+    color: blue;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+/* Se agrego para poder trabajar con los multimodales */
+.modal.fade {
+    z-index: 10000000 !important;
+}

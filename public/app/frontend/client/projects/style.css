@@ -1,0 +1,4 @@
+/* Se agrego para poder trabajar con los multimodales */
+.modal.fade {
+    z-index: 199999 !important;
+}
